@@ -4,7 +4,7 @@
 uisng namespace std;
 int main(){
     std::list<double> miLista;
-    miLista.push_back(3.14);
+    miLista.push_back(3.14);// efectivamente es el numero pi
     miLista.push_back(5.44);
     miLista.push_back(2.74);
     miLista.push_back(8.84);
@@ -25,6 +25,7 @@ int main(){
     miStack.push(20.0);
     miStack.push(30.0);
 
+    std::cout << "Top después de push: " << miStack.top() << std::endl;
 
 
 

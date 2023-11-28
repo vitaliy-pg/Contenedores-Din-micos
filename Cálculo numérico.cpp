@@ -20,7 +20,11 @@ int main(){
         std::cout << elemento << " ";
     }
         std::cout << std::endl;
-
+    std::cout << "Suma: ";
+    for (const auto& elemento : suma) {
+        std::cout << elemento << " ";
+    }
+        std::cout << std::endl;
     return 0;
 }
 

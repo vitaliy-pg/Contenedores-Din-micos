@@ -18,6 +18,7 @@ int main(){
     for (const auto& elemento : miLista) {
         std::cout << elemento << " ";
     }
+    std::cout << std::endl;
 
 
 

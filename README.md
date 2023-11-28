@@ -5,6 +5,8 @@ Si quieres acceder a mi trabajo aqui esta el link :) https://github.com/vitaliy-
 
 #EXPLICACION DE EJERCICIOS
 
-EJERCICIO 1: Añadir a traves de una funcion numeros a una cadena o vectores de numeros enteros
+EJERCICIO 1: Añadir a traves de una funcion numeros a una cadena o vectores de numeros enteros.
+
+EJERCICIO 2: 
 
 

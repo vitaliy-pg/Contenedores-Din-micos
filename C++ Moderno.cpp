@@ -21,6 +21,8 @@ int main(){
     });
     std::cout << std::endl;
 
+    std::unique_ptr<int> ptrEntero = std::make_unique<int>(42);
+
 
     return 0;
 }

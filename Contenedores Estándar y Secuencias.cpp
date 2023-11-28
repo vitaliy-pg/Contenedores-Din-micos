@@ -3,6 +3,7 @@
 #include<stack>
 uisng namespace std;
 int main(){
+    std::list<double> miLista;
 
 
 

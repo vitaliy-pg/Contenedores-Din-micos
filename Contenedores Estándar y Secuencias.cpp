@@ -37,5 +37,15 @@ int main(){
 
     std::cout << "Top despues de pop: " << miStack.top() << std::endl;
 
+    miLista.push_back(6.6);
+    miLista.push_back(7.7);
+    miLista.push_back(8.8);
+
+    std::cout << "\nElementos actualizados de la lista:" << std::endl;
+    for (const auto& elemento : miLista) {
+        std::cout << elemento << " ";
+    }
+    std::cout << std::endl;
+
     return 0;
 }

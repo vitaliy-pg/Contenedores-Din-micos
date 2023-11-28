@@ -29,7 +29,11 @@ std::cout << std::endl;
     miVector.push_back(12);
     miVector.push_back(9);
 
-
+    std::cout << "Vector con nuevos elementos:" << std::endl;
+    for (const auto& elemento : miVector) {
+        std::cout << elemento << " ";
+    }
+std::cout << std::endl;
 
 
     return 0;

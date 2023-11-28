@@ -13,6 +13,7 @@ int main() {
     miVector.push_back(70);
     miVector.push_back(80);
 
+    std::cout << "Elementos del vector:" << std::endl
 
 
 

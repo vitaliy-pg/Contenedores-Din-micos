@@ -30,6 +30,13 @@ int main(){
         std::cout << elemento << " ";
     }
         std::cout << std::endl;
+    std::cout << "Multiplicacion: ";
+    for (const auto& elemento : multiplicacion) {
+        std::cout << elemento << " ";
+    }
+        std::cout << std::endl;
+
+
     return 0;
 }
 

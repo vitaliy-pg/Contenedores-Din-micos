@@ -16,6 +16,10 @@ int main(){
     std::vector<int> numeros = {1, 2, 3, 4, 5};
     std::cout << "Cuadrados de los elementos en el vector:" << std::endl;
 
+    std::for_each(numeros.begin(), numeros.end(), [](auto& elemento) {
+        std::cout << cuadrado(elemento) << " ";
+    });
+    std::cout << std::endl;
 
 
     return 0;

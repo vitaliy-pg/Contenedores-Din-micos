@@ -25,6 +25,11 @@ int main(){
         std::cout << elemento << " ";
     }
         std::cout << std::endl;
+    std::cout << "Resta: ";
+    for (const auto& elemento : resta) {
+        std::cout << elemento << " ";
+    }
+        std::cout << std::endl;
     return 0;
 }
 

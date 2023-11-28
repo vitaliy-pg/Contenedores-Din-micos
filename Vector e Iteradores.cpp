@@ -13,11 +13,12 @@ int main() {
     miVector.push_back(70);
     miVector.push_back(80);
 
-    std::cout << "Elementos del vector:" << std::endl
+    std::cout << "Elementos del vector:" << std::endl;
+    for (std::vector<int>::iterator it = miVector.begin(); it != miVector.end(); ++it) {
+        std::cout << *it << std::endl;
+    }
 
-
-
-
+    std::cout<<std::endl;
 
 return 0;
 }

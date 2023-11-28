@@ -16,6 +16,11 @@ std::cout << std::endl;
 
     std::sort(miVector.begin(), miVector.end());
 
+    std::cout << "Vector ordenado:" << std::endl;
+    for (const auto& elemento : miVector) {
+        std::cout << elemento << " ";
+    }
+
 
 
 

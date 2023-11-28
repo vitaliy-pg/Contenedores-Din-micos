@@ -20,6 +20,8 @@ std::cout << std::endl;
     for (const auto& elemento : miVector) {
         std::cout << elemento << " ";
     }
+std::cout << std::endl;
+    auto maxElement = std::max_element(miVector.begin(), miVector.end());
 
 
 

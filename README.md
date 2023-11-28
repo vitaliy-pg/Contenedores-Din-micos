@@ -12,3 +12,5 @@ EJERCICIO 2: Programa que almacena un conjunto de numreros decimales a traves de
 EJERCICIO 3: Declarar un vector de numeros enteros y utilizar diversas funciones para ordenar el vector.
 
 EJERCICIO 4: Programa para hacer operaciones matematicas.
+
+EJERCICIO 5:

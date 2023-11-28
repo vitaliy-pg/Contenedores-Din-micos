@@ -1,5 +1,6 @@
 #include<iostream>
 #include<valarray>
+#include<cmath>
 using namespace std;
 int main(){
     std::valarray<double> valarray1 = {1.0, 2.0, 3.0, 4.0, 5.0};
@@ -35,7 +36,11 @@ int main(){
         std::cout << elemento << " ";
     }
         std::cout << std::endl;
-
+    std::cout << "Division: ";
+    for (const auto& elemento : division) {
+        std::cout << elemento << " ";
+    }
+        std::cout << std::endl;
 
     return 0;
 }

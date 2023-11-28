@@ -25,7 +25,9 @@ std::cout << std::endl;
 
     std::cout << "Elemento más grande: " << *maxElement << std::endl;
 
-
+    miVector.push_back(10);
+    miVector.push_back(12);
+    miVector.push_back(9);
 
 
 

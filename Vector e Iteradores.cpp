@@ -1,24 +1,37 @@
 #include<iostream>
 #include<vector>
+#include<string>
 using namespace std;
 
 int main() {
-    std::vector<int> miVector;
-    miVector.push_back(10);
-    miVector.push_back(20);
-    miVector.push_back(30);
-    miVector.push_back(40);
-    miVector.push_back(50);
-    miVector.push_back(60);
-    miVector.push_back(70);
-    miVector.push_back(80);
+    std::vector<int> miVectornumeros,
+    miVectornumeros.push_back(10);
+    miVectornumeros.push_back(20);
+    miVectornumeros.push_back(30);
+    miVectornumeros.push_back(40);
+    miVectornumeros.push_back(50);
+    miVectornumeros.push_back(60);
+    miVectornumeros.push_back(70);
+    miVectornumeros.push_back(80);
 
-    std::cout << "Elementos del vector:" << std::endl;
+    std::cout << "Elementos del vector numeros:" << std::endl;
     for (std::vector<int>::iterator it = miVector.begin(); it != miVector.end(); ++it) {
         std::cout << *it << std::endl;
     }
 
-    std::cout<<std::endl;
+    std::vector<std::string> miVectorAlimentos;
+    miVectorAlimentos.push_back("Manzana");
+    miVectorAlimentos.push_back("Pera");
+    miVectorAlimentos.push_back("Kiwi");
+    miVectorAlimentos.push_back("Naranja");
+    miVectorAlimentos.push_back("Mandarina");
+    miVectorAlimentos.push_back("Ciruela");
+
+    std::cout << "Elementos del vector alimentos:" << std::endl;
+    for (std::vector<int>::iterator it = miVector.begin(); it != miVector.end(); ++it) {
+        std::cout << *it << std::endl;
+    }
+
 
 return 0;
 }

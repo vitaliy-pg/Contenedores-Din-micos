@@ -27,10 +27,7 @@ int main(){
 
     std::cout << "Top después de push: " << miStack.top() << std::endl;
 
-
-
-
-
+    std::cout << "Top después de pop: " << miStack.top() << std::endl;
 
     reututn 0;
 }

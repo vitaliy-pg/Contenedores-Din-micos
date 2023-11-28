@@ -23,7 +23,7 @@ std::cout << std::endl;
 std::cout << std::endl;
     auto maxElement = std::max_element(miVector.begin(), miVector.end());
 
-    std::cout << "Elemento más grande: " << *maxElement << std::endl;
+    std::cout << "Elemento mas grande: " << *maxElement << std::endl;
 
     miVector.push_back(10);
     miVector.push_back(12);

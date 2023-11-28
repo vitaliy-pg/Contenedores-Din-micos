@@ -21,6 +21,9 @@ int main(){
     std::cout << std::endl;
 
     std::cout << "\nOperaciones de la pila:" << std::endl;
+    miStack.push(10.0);
+    miStack.push(20.0);
+    miStack.push(30.0);
 
 
 

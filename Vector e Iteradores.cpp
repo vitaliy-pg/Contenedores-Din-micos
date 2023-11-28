@@ -4,7 +4,7 @@
 using namespace std;
 
 int main() {
-    std::vector<int> miVectornumeros,
+    std::vector<int> miVectornumeros;
     miVectornumeros.push_back(10);
     miVectornumeros.push_back(20);
     miVectornumeros.push_back(30);
@@ -15,9 +15,10 @@ int main() {
     miVectornumeros.push_back(80);
 
     std::cout << "Elementos del vector numeros:" << std::endl;
-    for (std::vector<int>::iterator it = miVector.begin(); it != miVector.end(); ++it) {
-        std::cout << *it << std::endl;
+    for (std::vector<int>::iterator it = miVectornumeros.begin(); it != miVectornumeros.end(); ++it) {
+        std::cout << *it << " ";  // Mostrar el elemento actual
     }
+    std::cout << std::endl;
 
     std::vector<std::string> miVectorAlimentos;
     miVectorAlimentos.push_back("Manzana");
@@ -28,9 +29,10 @@ int main() {
     miVectorAlimentos.push_back("Ciruela");
 
     std::cout << "Elementos del vector alimentos:" << std::endl;
-    for (std::vector<int>::iterator it = miVector.begin(); it != miVector.end(); ++it) {
-        std::cout << *it << std::endl;
-    }
 
+    for (std::vector<std::string>::iterator it = miVectorAlimentos.begin(); it != miVectorAlimentos.end(); ++it) {
+        std::cout << *it << " ";  // Mostrar el elemento actual
+    }
+    std::cout << std::endl;
 return 0;
 }

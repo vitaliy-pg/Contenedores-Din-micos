@@ -14,7 +14,12 @@ int main(){
     for (const auto& elemento : valarray1) {
         std::cout << elemento << " ";
     }
-
+    std::cout << std::endl;
+    std::cout << "Valarray2: ";
+    for (const auto& elemento : valarray2) {
+        std::cout << elemento << " ";
+    }
+        std::cout << std::endl;
 
     return 0;
 }

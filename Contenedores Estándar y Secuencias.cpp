@@ -14,6 +14,12 @@ int main(){
     std::stack<double, std::list<double>> miStack(miLista);
 
 
+    std::cout << "Elementos originales de la lista:" << std::endl;
+    for (const auto& elemento : miLista) {
+        std::cout << elemento << " ";
+    }
+
+
 
 
 

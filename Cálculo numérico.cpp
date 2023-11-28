@@ -50,6 +50,12 @@ int main(){
         std::cout << elemento << " ";
     }
         std::cout << std::endl;
+    std::cout << "Raiz cuadrada: ";
+    for (const auto& elemento : raizCuadrada) {
+        std::cout << elemento << " ";
+    }
+        std::cout << std::endl;
+
     return 0;
 }
 

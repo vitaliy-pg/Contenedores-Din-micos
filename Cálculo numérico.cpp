@@ -45,7 +45,11 @@ int main(){
         std::cout << elemento << " ";
     }
         std::cout << std::endl;
-
+    std::cout << "Potencia: ";
+    for (const auto& elemento : potencia) {
+        std::cout << elemento << " ";
+    }
+        std::cout << std::endl;
     return 0;
 }
 

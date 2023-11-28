@@ -12,6 +12,9 @@ int main(){
 
     std::cout << "El cuadrado de " << numero << " es " << resultado << std::endl;
 
+// Usar expresión lambda con for_each para imprimir el cuadrado de cada elemento en un vector
+    std::vector<int> numeros = {1, 2, 3, 4, 5};
+    std::cout << "Cuadrados de los elementos en el vector:" << std::endl;
 
 
 

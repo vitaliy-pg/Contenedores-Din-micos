@@ -12,7 +12,9 @@ int main(){
     for (const auto& elemento : miVector) {
         std::cout << elemento << " ";
     }
+std::cout << std::endl;
 
+    std::sort(miVector.begin(), miVector.end());
 
 
 

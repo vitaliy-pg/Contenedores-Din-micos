@@ -20,6 +20,7 @@ int main(){
     }
     std::cout << std::endl;
 
+    std::cout << "\nOperaciones de la pila:" << std::endl;
 
 
 

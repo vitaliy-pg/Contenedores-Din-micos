@@ -23,6 +23,7 @@ int main(){
 
     std::unique_ptr<int> ptrEntero = std::make_unique<int>(42);
 
+    std::cout << "Valor almacenado en el puntero inteligente: " << *ptrEntero << std::endl;
 
     return 0;
 }

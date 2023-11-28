@@ -32,6 +32,5 @@ int main() {
         std::cout << *it << std::endl;
     }
 
-
 return 0;
 }

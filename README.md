@@ -15,4 +15,4 @@ EJERCICIO 4: Programa para hacer operaciones matematicas.
 
 EJERCICIO 5: Utilizar una funcion para mostrar su cuadrado.
 
-EJERCICIO 6: Instalar la biblioteca boost
+EJERCICIO 6: Instalar la biblioteca boost y crear un programa para convertir una cadena de caracteres en un número entero a traves de una determinada funcion.

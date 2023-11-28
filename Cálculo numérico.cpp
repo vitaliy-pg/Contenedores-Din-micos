@@ -10,7 +10,10 @@ int main(){
     std::valarray<double> multiplicacion = valarray1 * valarray2;
     std::valarray<double> division = valarray1 / valarray2;
 
-
+    std::cout << "Valarray1: ";
+    for (const auto& elemento : valarray1) {
+        std::cout << elemento << " ";
+    }
 
 
     return 0;

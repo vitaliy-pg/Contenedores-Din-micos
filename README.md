@@ -13,4 +13,4 @@ EJERCICIO 3: Declarar un vector de numeros enteros y utilizar diversas funciones
 
 EJERCICIO 4: Programa para hacer operaciones matematicas.
 
-EJERCICIO 5:
+EJERCICIO 5: Utilizar una funcion para mostrar su cuadrado.

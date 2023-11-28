@@ -5,9 +5,9 @@ Si quieres acceder a mi trabajo aqui esta el link :) https://github.com/vitaliy-
 
 #EXPLICACION DE EJERCICIOS
 
--EJERCICIO 1: Añadir a traves de una funcion numeros a una cadena o vectores de numeros enteros.
+-EJERCICIO 1: Añadir a traves de una funcion,numeros a una cadena o vectores de numeros enteros.
 
--EJERCICIO 2: Programa que almacena un conjunto de numreros decimales a traves de un contenedor.
+-EJERCICIO 2: Programa que almacena un conjunto de numeros decimales a traves de un contenedor.
 
 -EJERCICIO 3: Declarar un vector de numeros enteros y utilizar diversas funciones para ordenar el vector.
 

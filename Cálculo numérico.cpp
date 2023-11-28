@@ -10,6 +10,10 @@ int main(){
     std::valarray<double> resta = valarray1 - valarray2;
     std::valarray<double> multiplicacion = valarray1 * valarray2;
     std::valarray<double> division = valarray1 / valarray2;
+    std::valarray<double> potencia = pow(valarray1, 2); // Elevar al cuadrado
+    std::valarray<double> raizCuadrada = sqrt(valarray1);
+
+
 
     std::cout << "Valarray1: ";
     for (const auto& elemento : valarray1) {
